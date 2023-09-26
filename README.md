@@ -3,8 +3,9 @@ Match Your Skills (Text similarity between resume and LinkedIn job descriptions)
 
 Methodology:
 
-Data Scraping
-We scrapped job listings from the LinkedIn search results using selenium. The required tags are identified, and the text data were extracted using CSS selector. Data like location, company name, job type is directly extracted but for the description part, further coding is required to navigate to each job listing. After expanding the job listing, which directs to a new URL, the description text data is scraped.
+Data Scraping:
+
+The job listings from the LinkedIn search results are scraped using selenium. The required tags are identified, and the text data were extracted using CSS selector. Data like location, company name, job type is directly extracted but for the description part, further coding is required to navigate to each job listing. After expanding the job listing, which directs to a new URL, the description text data is scraped.
 The description of job listings is tokenized using the NLTK package. NLTK package of python is the Natural Language tool kit, which enables us to preprocess the data, which is unstructured and human-readable texts, to a meaningful data format for us to analyze. The description data is filtered with stop words and punctuations, which is unnecessary for our analysis; this is the data cleaning part. This scraped data is stored in a CSV file for us to access later to compare the skills from the resume.
 The user uploads the resume and the keywords for the LinkedIn search. The goal is to dynamically create the LinkedIn URL from user keywords to scrape the required data
 according to the user requirements.
