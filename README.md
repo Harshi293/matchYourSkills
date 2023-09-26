@@ -63,6 +63,7 @@ The visual representations of the frequency of different terms included in a doc
 Using the Word Cloud gives us a better insight of Skills which previous analysis failed to give. “Software Engineer”, “Intern”, “Software” and “Summer” are the most used words in the Job Title.
   <img width="832" alt="image" src="https://github.com/Harshi293/matchYourSkills/assets/144385477/5b991449-e91c-4709-a845-fc69cf0046d3">
  With Respect to Job Title
+ 
 If we observe below based on the job Description “Engineering”, Intern” and “Software” are the, most used words.
 <img width="772" alt="image" src="https://github.com/Harshi293/matchYourSkills/assets/144385477/8ca3606c-50a5-4f58-ae74-bfb4a804299b">
  With Respect to Job Description
